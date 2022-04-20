@@ -1,0 +1,88 @@
+body {
+  background: black;
+}
+
+.clock {
+  position: relative;
+  text-align: center;
+  color: aqua;
+  font-size: 60px;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 7px;
+}
+
+.text1 {
+  position: relative;
+  text-align: center;
+  color: aqua;
+  font-size: 50px;
+  font-family:'Rajdhani', sans-serif;
+  letter-spacing: 7px;
+}
+
+.text2 {
+  position: relative;
+  text-align: center;
+  color: darkgrey;
+  font-size: 40px;
+  font-family:'Rajdhani', sans-serif;
+  letter-spacing: 7px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.odevaciklama{
+ 
+  position: relative;
+  text-align: center;
+  color: darkgrey;
+  font-size: 20px;
+  font-family:'Rajdhani', sans-serif;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+img {
+    margin-top: 20px;
+    width: 17%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: gray;
+  font-size: 20px;
+  font-family:'Rajdhani', sans-serif;
+  text-align: center;
+  
+}
+
+footer a:link {
+  text-decoration: none;
+  color: gray;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+footer a:active {
+  text-decoration: underline;
+  color: gray;
+}
